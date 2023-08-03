@@ -16,9 +16,9 @@ https://petfriends.skillfactory.ru/apidocs/#/.
 
 - pip install requests
 - pip install pytest
-- pip install dotenv
+- pip install python-dotenv
 - pip install os
-- pip install requests_toolbelt
+- pip install requests-toolbelt
 - pip install json
 
 Также необходимо создать в корневой папке проекта файл .env со следущим содержимым:
