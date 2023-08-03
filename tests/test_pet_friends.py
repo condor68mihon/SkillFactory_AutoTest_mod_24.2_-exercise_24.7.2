@@ -44,7 +44,7 @@ def test_successful_delete_self_pet():
     """Проверяем возможность удаления питомца"""
 
     # Получаем ключ auth_key и запрашиваем список своих питомцев
-    _, auth_key = pf.get_api_key(valid_email, valid_password)
+    _, auth_key = pf.get_key(valid_email, valid_password)
     _, my_pets = pf.get_list_of_pets(auth_key, "my_pets")
 
     # Проверяем - если список своих питомцев пустой, то добавляем нового и опять запрашиваем список своих питомцев
